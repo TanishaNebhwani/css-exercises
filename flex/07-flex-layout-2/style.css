@@ -27,3 +27,46 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My Solution */
+body{
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  flex:1;
+  display: flex;
+}
+
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.sidebar a{
+  text-decoration: none;
+  color: #fff;
+}
+.sidebar li{
+  list-style: none;
+  margin-bottom: 8px;
+}
+.card{
+  max-width: 450px;
+  margin-bottom: 20px;
+}
+.section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+}
